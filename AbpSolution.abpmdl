@@ -1,0 +1,76 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "AbpSolution.Application": {
+      "path": "src/AbpSolution.Application/AbpSolution.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.Domain.Shared": {
+      "path": "src/AbpSolution.Domain.Shared/AbpSolution.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.Application.Contracts": {
+      "path": "src/AbpSolution.Application.Contracts/AbpSolution.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.HttpApi": {
+      "path": "src/AbpSolution.HttpApi/AbpSolution.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.HttpApi.Client": {
+      "path": "src/AbpSolution.HttpApi.Client/AbpSolution.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.EntityFrameworkCore": {
+      "path": "src/AbpSolution.EntityFrameworkCore/AbpSolution.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.DbMigrator": {
+      "path": "src/AbpSolution.DbMigrator/AbpSolution.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.HttpApi.Host": {
+      "path": "src/AbpSolution.HttpApi.Host/AbpSolution.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution.Domain": {
+      "path": "src/AbpSolution.Domain/AbpSolution.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
